@@ -121,4 +121,11 @@ class App extends Component {
   }
 }
 
+console.log('%c%s', 'color:red;font-size: 4em;', 'Stop');
+console.log(
+  '%c%s',
+  'font-size:1.5em',
+  "If someone told you to put something in here -- don't. It will give them access to your account!"
+);
+
 export default App;
