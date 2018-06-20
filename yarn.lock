@@ -1186,9 +1186,81 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
+"@types/history@*":
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.6.2.tgz#12cfaba693ba20f114ed5765467ff25fdf67ddb0"
+
+"@types/lodash@^4.14.109":
+  version "4.14.109"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.109.tgz#b1c4442239730bf35cabaf493c772b18c045886d"
+
 "@types/node@*":
   version "10.1.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.1.4.tgz#606651d3f8a8bec08b8cb262161aab9209f4a29d"
+
+"@types/react-dom@^16.0.6":
+  version "16.0.6"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.6.tgz#f1a65a4e7be8ed5d123f8b3b9eacc913e35a1a3c"
+  dependencies:
+    "@types/node" "*"
+    "@types/react" "*"
+
+"@types/react-loadable@^5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@types/react-loadable/-/react-loadable-5.4.0.tgz#7a4f0673de07473525ab27959cf4c2601e25f37f"
+  dependencies:
+    "@types/react" "*"
+    "@types/webpack" "*"
+
+"@types/react-router-dom@^4.2.7":
+  version "4.2.7"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-4.2.7.tgz#9d36bfe175f916dd8d7b6b0237feed6cce376b4c"
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router@*":
+  version "4.0.26"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.26.tgz#4489c873642baa633014294a6d0a290001ba9860"
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+
+"@types/react-transition-group@^2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-2.0.11.tgz#feb274676a39383fffaa0dff710958d2251abefb"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^16.3.17":
+  version "16.3.17"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.3.17.tgz#d59d1a632570b0713946ed9c2949d994773633c5"
+  dependencies:
+    csstype "^2.2.0"
+
+"@types/tapable@*":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.2.tgz#e13182e1b69871a422d7863e11a4a6f5b814a4bd"
+
+"@types/uglify-js@*":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.0.2.tgz#f30c75458d18e8ee885c792c04adcb78a13bc286"
+  dependencies:
+    source-map "^0.6.1"
+
+"@types/webpack@*":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.0.tgz#c0551b772be241d786c0548812dd75a932f8efb4"
+  dependencies:
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+    source-map "^0.6.0"
+
+"@types/yup@^0.24.6":
+  version "0.24.6"
+  resolved "https://registry.yarnpkg.com/@types/yup/-/yup-0.24.6.tgz#b086f6aee4e2656196914863871a97dfcc4f8dd7"
 
 abab@^1.0.3, abab@^1.0.4:
   version "1.0.4"
@@ -2783,6 +2855,10 @@ cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-0.3.1.tgz#6da9b4cff1bc5d716e6e5fe8e04fcb1b50a49adf"
   dependencies:
     cssom "0.3.x"
+
+csstype@^2.2.0:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.5.3.tgz#2504152e6e1cc59b32098b7f5d6a63f16294c1f7"
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -9412,6 +9488,12 @@ yallist@^3.0.0, yallist@^3.0.2:
 yargs-parser@^4.2.0:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-4.2.1.tgz#29cceac0dc4f03c6c87b4a9f217dd18c9f74871c"
+  dependencies:
+    camelcase "^3.0.0"
+
+yargs-parser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-5.0.0.tgz#275ecf0d7ffe05c77e64e7c86e4cd94bf0e1228a"
   dependencies:
     camelcase "^3.0.0"
 

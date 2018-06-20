@@ -28,6 +28,13 @@
     "start": "npm-run-all -p start-js watch-css"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.109",
+    "@types/react": "^16.3.17",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-loadable": "^5.4.0",
+    "@types/react-router-dom": "^4.2.7",
+    "@types/react-transition-group": "^2.0.11",
+    "@types/yup": "^0.24.6",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.12.0",
